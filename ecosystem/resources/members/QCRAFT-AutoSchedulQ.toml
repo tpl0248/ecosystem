@@ -1,0 +1,13 @@
+name = "QCRAFT AutoScheduler"
+url = "https://github.com/Qcraft-UEx/QCRAFT-AutoSchedulQ"
+description = "AutoScheduler is a library that allows developers to optimize the scheduling and execution of quantum circuits on the IBM Quantum platform by reducing waiting times and costs through the automatic combination of multiple executions of the same circuit in a single task. This tool allows the composition of the same quantum circuit to be executed on the same task, thus taking advantage of the maximum number of qubits available in the simulator or quantum computer. This tool allows maximizing the use of available qubits and reducing the total number of shots required for the execution of the same circuit without a significant impact on the results. As an example and to facilitate the understanding of the AutoScheduler library, if you wanted to run 1000 shots of a quantum circuit requiring 30 qubits on any IBM machine with 127 qubits, this library would compose a task with 4 times the circuit using 120 qubits and reducing the number of shots from 1000 to 250."
+licence = "MIT license"
+contact_info = "jgaralo@unex.es"
+affiliations = "University of Extremadura, Spain"
+labels = [ "Paper implementation", "Application package",]
+ibm_maintained = false
+website = "https://spilab.es"
+group = "applications"
+reference_paper = "https://www.worldscientific.com/doi/10.1142/S0218194024410018"
+documentation = "https://github.com/Qcraft-UEx/QCRAFT-AutoSchedulQ/blob/main/README.md"
+uuid = "059eb7fc-3be5-405c-8113-9e81fac7e3c8"
